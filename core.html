@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anthony's Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Anthony's Restaurant Menu</h1>
+    </header>
+    <div class="container">
+      <button class="arrow left" onclick="prevDish()">&#9664;</button>
+      <div class="menu-item" id="menu-item">
+        <img id="dish-image" src="" alt="Dish Image" />
+        <span id="dish-name"></span>
+        <div class="hover-info" id="hover-info"></div>
+      </div>
+      <button class="arrow right" onclick="nextDish()">&#9654;</button>
+    </div>
+    <div class="dots" id="dots"></div>
+    <section class="testimonials">
+      <h2>Customer Testimonials</h2>
+      <div class="testimonial">
+        "Best restaurant ever! The food is amazing." - John D.
+      </div>
+      <div class="testimonial">
+        "A wonderful dining experience. Highly recommend!" - Sarah W.
+      </div>
+      <div class="testimonial">
+        "Delicious food and great service." - Emily R.
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
